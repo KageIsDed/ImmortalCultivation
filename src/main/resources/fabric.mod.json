@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "immortal-cultivation",
+	"version": "${version}",
+	"name": "Immortal Cultivation",
+	"description": "Ascend to Immortality!",
+	"authors": [
+		"TheDumbHat!"
+	],
+	"contact": {
+		"homepage": "https://thedumbhatt.carrd.co",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/immortal-cultivation/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.thedumbhat.immortalcultivation.ImmortalCultivation"
+		],
+		"fabric-datagen": [
+			"net.thedumbhat.immortalcultivation.ImmortalCultivationDataGenerator"
+		],
+		"client": [
+			"net.thedumbhat.immortalcultivation.ImmortalCultivationClient"
+		]
+	},
+	"mixins": [
+		"immortal-cultivation.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
