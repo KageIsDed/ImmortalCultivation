@@ -2,5 +2,7 @@
   "item.immortal-cultivation.spirit_stone_shard": "Spirit Stone Shard",
   "item.immortal-cultivation.spirit_stone": "Spirit Stone",
 
-  "block.immortal-cultivation.spirit_stone_block": "Spirit Stone Block"
+  "block.immortal-cultivation.spirit_stone_block": "Spirit Stone Block",
+
+  "itemgroup.immortal-cultivation.spirit_stone_items": "Spirit Stone Items"
 }

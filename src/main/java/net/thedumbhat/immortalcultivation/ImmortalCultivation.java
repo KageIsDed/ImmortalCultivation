@@ -13,6 +13,7 @@ public class ImmortalCultivation implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModGroups.registerGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
